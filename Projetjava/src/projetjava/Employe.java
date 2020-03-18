@@ -34,7 +34,7 @@ public Employe (String n,String p, int pts){
     }
 
     public int calculSalaire(){
-        int salaire = this.pts*12;
+        int salaire = this.points*12;
         return salaire;
 
     }
