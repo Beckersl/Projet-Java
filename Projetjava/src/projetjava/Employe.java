@@ -1,12 +1,12 @@
 
-package ProjetJava;
+package projetjava;
 
 public class Employe implements Payable{
      private String nom;
     private String prenom;
     static int compteur = 0;
     private int matricule;
-    protected int points;
+    private int points;
     
 public Employe (String n,String p, int pts){
    

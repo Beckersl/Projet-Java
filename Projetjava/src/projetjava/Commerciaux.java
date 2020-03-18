@@ -1,5 +1,5 @@
 
-package ProjetJava;
+package projetjava;
 
 public class Commerciaux extends Employe implements Payable {
    private int volumeVente;
@@ -11,7 +11,7 @@ public class Commerciaux extends Employe implements Payable {
 
 
     public int calculSalaire(){
-        int salaire = this.points*12+(this.volumeVente/10);
+        int salaire = this.getPoints()*12+(this.volumeVente/10);
         return salaire;
 
     }
