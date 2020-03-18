@@ -1,5 +1,5 @@
 
-package heritageemployes;
+package ProjetJava;
 
 public class Commerciaux extends Employe implements Payable {
    private int volumeVente;

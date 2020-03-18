@@ -1,7 +1,8 @@
 
-package heritageemployes;
+package ProjetJava;
 
 public class Responsables extends Employe implements Payable {
+
     
     public Responsables(String n, String p, int pts){
         super(n, p, pts);

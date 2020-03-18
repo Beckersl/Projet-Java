@@ -1,5 +1,5 @@
 
-package heritageemployes;
+package ProjetJava;
 
 public class Employe implements Payable{
      private String nom;
