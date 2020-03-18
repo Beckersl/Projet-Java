@@ -6,7 +6,7 @@ public class Employe implements Payable{
     private String prenom;
     static int compteur = 0;
     private int matricule;
-    private int points;
+    protected int points;
     
 public Employe (String n,String p, int pts){
    
