@@ -11,7 +11,7 @@ public class Commerciaux extends Employe implements Payable {
 
 
     public int calculSalaire(){
-        int salaire = this.points*12+(this.v/10);
+        int salaire = this.points*12+(this.volumeVente/10);
         return salaire;
 
     }
