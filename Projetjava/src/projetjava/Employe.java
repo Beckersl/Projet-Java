@@ -1,7 +1,7 @@
 
 package heritageemployes;
 
-public class Employe {
+public class Employe implements Payable{
      private String nom;
     private String prenom;
     static int compteur = 0;
@@ -13,8 +13,8 @@ public Employe (String n,String p, int pts){
     this.nom = n;
     this.prenom = p;
     this.points = pts;
-    this.compteur += 1;
-    this.matricule = this.compteur;
+    Employe.compteur += 1;
+    this.matricule = Employe.compteur;
     
 }
 
@@ -31,6 +31,12 @@ public Employe (String n,String p, int pts){
     }
     public int getPoints(){
         return points;
+    }
+
+    public int calculSalaire(){
+        int salaire = this.pts*12;
+        return salaire;
+
     }
 
 @Override
