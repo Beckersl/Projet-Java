@@ -11,7 +11,7 @@ import java.util.Random;
  *
  * @author waityouc
  */
-public class Employe {
+public abstract class Employe {
     
     private String nom;
     private String prenom;
